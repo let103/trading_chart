@@ -1,0 +1,83 @@
+.coin-list-wrapper{
+    position: absolute;
+    border: 1px solid #ddd;
+    width: 400px;
+    top: px;
+    background: white;
+    opacity: 0.9;
+    overflow: auto;
+    max-height: 300px;
+    z-index: 999;
+}
+
+.coin-list-wrapper li{
+    list-style-type: none;
+    padding: 10px;
+    color: #222;
+}
+
+.coin-list-wrapper li:hover{
+    background: ghostwhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sort-section{
+    position: relative;
+}
+
+.sort-icon{
+    position: absolute;
+    font-size: 17px;
+    color: #666;
+    cursor: pointer;
+    left: 10px;
+}
+
+.sort-icon-left{
+    top: -7px;
+}
+
+.sort-icon-right{
+    top: 7px;
+}
+
+.coin-list-table-section{
+    height: 500px;
+    overflow: scroll;
+}
+
+.table-width{
+    width: 750px;
+}
+
+.table tr:hover{
+    background: #ddd;
+    cursor: pointer;
+}
+
+.green{
+    color: green;
+}
+
+.red{
+    color: red;
+}
+
+.coin-list-section{
+    margin: 0;
+    border-top: 5px solid #eee;
+    border-bottom: 5px solid #eee;
+}
+
+.coin-list-section-left{
+    padding: 0;
+}
+
+.coin-list-section-right{
+    padding: 0;
+    border-left: 5px solid #eee;
+}

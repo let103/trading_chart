@@ -1,0 +1,21 @@
+.footer-section{
+    width: 90%;
+    margin: 30px auto;
+}
+
+.footer-section-right{
+    text-align: right;
+}
+
+.footer-section-right ul.menu{
+    list-style-type: none;
+}
+
+.footer-section-right li.menu-item{
+    padding: 0 10px;
+    display: inline-block;
+}
+
+.footer-section-right li.menu-item a{
+    color: #333;
+}
